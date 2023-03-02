@@ -30,7 +30,7 @@ class Engine {
 
         this.radius = 100;
         this.cx = () => Math.floor(this.ctx.canvas.width / 2 + 100 - 200 * +this.mirror);
-        this.cy = () => Math.floor(this.ctx.canvas.height / 2);
+        this.cy = () => Math.floor(this.ctx.canvas.height / 2 - 35);
         this.mx = 0;
         this.my = 0;
 
